@@ -63,7 +63,9 @@ final class LoginManager {
        
         if let loaded = defaults.object(forKey: "users") {
             currentUsers = loaded as! [String : String]
+            print(loaded)
         }
+        print(currentUsers)
 
         
     }
